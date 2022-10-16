@@ -1,4 +1,6 @@
-export const theme = {
+import { createTheme } from '@mui/material';
+
+export const theme = createTheme({
   colors: {
     black: '#000',
     white: '#fff',
@@ -16,11 +18,11 @@ export const theme = {
     monospace: 'Menlo, monospace',
   },
   fontSizes: {
-    xs: 12,
-    s: 14,
-    m: 16,
-    l: 32,
-    xl: 64,
+    xs: '12px',
+    s: '14px',
+    m: '16px',
+    l: '32px',
+    xl: '64px',
   },
   fontWeights: {
     normal: 400,
@@ -41,4 +43,4 @@ export const theme = {
     lg: '16px',
     round: '50%',
   },
-};
+});
