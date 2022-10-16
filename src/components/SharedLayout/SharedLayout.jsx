@@ -9,9 +9,9 @@ import { Link } from './SharedLayout.styled';
 import { GlobalStyle } from 'components/GlobalStyle';
 import Container from '@mui/material/Container';
 import { UserMenu } from 'components/UserMenu/UserMenu';
-import { AuthNav } from 'components/AuthNav/AuthNav';
+import { AuthNav } from 'components/NavigationAuth/NavigationAuth';
 import { useSelector } from 'react-redux';
-import { selectIsLoggedIn } from 'redux/auth/auth-selectors';
+import { selectIsLoggedIn } from 'redux/auth/selectors';
 
 export const SharedLayout = () => {
   const isLoggedIn = useSelector(selectIsLoggedIn);

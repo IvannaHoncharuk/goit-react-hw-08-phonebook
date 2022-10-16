@@ -10,8 +10,8 @@ import {
   REGISTER,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import { phonebookReducer } from 'redux/AppSlice';
-import { authReducer } from 'redux/auth/auth-slice';
+import { phonebookReducer } from 'redux/slice';
+import { authReducer } from 'redux/auth/authslice';
 import { contactsApi } from 'services/api';
 
 const authPersistConfig = {
