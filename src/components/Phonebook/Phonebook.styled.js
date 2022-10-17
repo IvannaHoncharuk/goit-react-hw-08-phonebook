@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 
 export const FormBox = styled.form`
   border: 1px solid white;
